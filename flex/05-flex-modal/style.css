@@ -17,9 +17,20 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  max-width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+.container-aux {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container-aux2 {
+  display: flex;
 }
 
 .icon {
@@ -33,6 +44,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+  
 }
 
 .close-button {
@@ -46,6 +59,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
